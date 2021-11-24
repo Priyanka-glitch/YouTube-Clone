@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; 
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column content {
+padding bottom: 20px;
+}
+</style>
+</head>
+<body>
+<header class="header">
+    <a href="#">
+      <img src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" alt="YouTubeLogo" class="nsight-logo" />
+    </a>
+    <form class="search-bar" action="agroup.html" method="get">
+      <input class="search-input" placeholder="Search" aria-label="Search" name="list" id="searchList" list="itemList">
+	  <datalist id="searchList">
+	  <option value="AWS videos">
+      <option value="Bollywood">
+      <option value="Chandelier">
+      <option value="Doors">
+      <option value="Elephant videos">
+	  </datalist>
+	  </input type="text">
+      <button type="submit" class="search-btn">
+        <img src="magnify.svg" />
+      </button>
+    </form>
+    <div class="menu-icons">
+      <a href="#">
+        <img src="video-plus.svg" alt="Upload Video" />
+      </a>
+      <a href="#">
+        <img src="apps.svg" alt="Apps" />
+      </a>
+      <a href="#">
+        <img src="bell.svg" alt="Notifications" />
+      </a>
+      <a href="#">
+        <img class="menu-channel-icon" src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png" alt="YouTubeLogo" />
+      </a>
+    </div>
+  </header>
+
+<div class="row">
+  <div class="column left" style="background-color:white">
+    <iframe width="200" height="100" src="https://www.youtube.com/embed/wWeyzYzd17o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/3Arj5zlUPG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/Nj9dJomI_HA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/WSbgixdC9g8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" height="100" src="https://www.youtube.com/embed/mJeNghZXtMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="column right" style="background-color:white; font-size: 1.1rem; font-weight: bold; text-decoration: none; color: black;">
+    <p>What is AWS?</p>
+	<p style="display: flex; text-decoration: none; color: black; font-size: 15px; padding-bottom: 20px;">AWS (Amazon Web Services) is a comprehensive, evolving cloud computing platform provided by Amazon that includes a mixture of infrastructure as a service (IaaS), platform as a service (PaaS) and packaged software as a service (SaaS) offerings.</p>
+	<p>What is azure?</p>
+	<p style="display: flex; text-decoration: none; color: black; font-size: 15px; padding-bottom: 20px;">Microsoft Azure, commonly referred to as Azure, is a cloud computing service created by Microsoft for building, testing, deploying, and managing applications and services through Microsoft-managed data centers.</p>
+	<p>Arthur Gunn</p>
+	<p style="display: flex; text-decoration: none; color: black; font-size: 15px; padding-bottom: 20px;">An amazing performance by Nepali citizen Arthur Gunn, living in kansas suddenly becoming the star of American Idol.</p>
+	<p>AI Vs Ml</p>
+	<p style="display: flex; text-decoration: none; color: black; font-size: 15px; padding-bottom: 20px;">This vedio will teach you about the advantages, disadvantages and differences between AI and ML.</p>
+	<p>AI Vs Ml</p>
+	<p style="display: flex; text-decoration: none; color: black; font-size: 15px; padding-bottom: 20px;">This vedio will teach you about the advantages, disadvantages and differences between AI and ML.</p>
+  </div>
+</div>
+
+</body>
+</html>
